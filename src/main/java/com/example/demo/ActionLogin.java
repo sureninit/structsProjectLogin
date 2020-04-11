@@ -3,7 +3,7 @@ package com.example.demo;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class ActionLogin extends ActionSupport{
-	//business logicc
+	//business logiccc
 	public String verifyUser() {
 		if(userid.equals("java") && pwd.equals("jee")) {
 			firstName="john";
